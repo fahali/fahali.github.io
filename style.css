@@ -1,0 +1,30 @@
+body {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 1em;
+  line-height: 1.5;
+
+  font-family: "Inter", sans-serif;
+}
+
+* + * {
+  margin-top: 1.5em;
+}
+
+.project-list {
+  list-style-type: none;
+}
+
+.contact-list {
+  padding-inline-start: 0;
+}
+
+.contact-list > li {
+  display: inline;
+}
+
+.contact-list > li + li {
+  padding-left: 1em;
+}
